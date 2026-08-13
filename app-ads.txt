@@ -8,13 +8,16 @@
 # anyway — so both stores can keep pointing at the legal site while this file
 # answers from the root.
 #
-# Source of truth is Docs/site/app-ads.txt in the game repo. Publish with
-# tools/publish-app-ads.sh. Never edit the published copy.
+# Source of truth is Docs/site/root/app-ads.txt in the game repo. Publish with
+# tools/update-app-ads-sellers.sh (paste + publish) or tools/publish-app-ads.sh.
+# Never edit the published copy.
 #
 # The seller lines below are account-specific and come from the Unity
-# Monetization dashboard: Setup > Organization Settings > app-ads.txt >
-# Show full list. Unity does not publish a canonical list anywhere else, so
-# re-copy it whenever the dashboard reports missing entries.
+# dashboard: Monetization > Settings > App-ads.txt > SHOW FULL LIST. Take the
+# full list, never the scroll box — the box shows about eleven rows, and a file
+# built from those eleven passes validation while silently dropping every
+# demand partner past row eleven. Unity publishes no canonical list anywhere
+# else, so re-copy whenever the dashboard reports missing entries.
 
 ownerdomain=niravita.github.io
 

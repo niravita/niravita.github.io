@@ -1,0 +1,31 @@
+# app-ads.txt — Authorized Sellers for Apps (IAB Tech Lab)
+#
+# Served at https://niravita.github.io/app-ads.txt — the ROOT of the developer
+# domain, with no path. That is not a style choice: Unity's Developer Website
+# field rejects any URL that carries a path, and the rejection is the
+# `badUrlForm` error that blocked monetization on 2026-08-13. The legal pages
+# live at /rpskill-legal/, and a crawler strips that path back to the root
+# anyway — so both stores can keep pointing at the legal site while this file
+# answers from the root.
+#
+# Source of truth is Docs/site/app-ads.txt in the game repo. Publish with
+# tools/publish-app-ads.sh. Never edit the published copy.
+#
+# The seller lines below are account-specific and come from the Unity
+# Monetization dashboard: Setup > Organization Settings > app-ads.txt >
+# Show full list. Unity does not publish a canonical list anywhere else, so
+# re-copy it whenever the dashboard reports missing entries.
+
+ownerdomain=niravita.github.io
+
+anzu.io, 691e95644e633a6eee2567ee, RESELLER
+appads.in, 106246, RESELLER
+appnexus.com, 11826, RESELLER, f5ab79cb980f11d1
+appnexus.com, 14230, RESELLER, f5ab79cb980f11d1
+appnexus.com, 17779, RESELLER
+appnexus.com, 6849, RESELLER
+bid-matrix.com, f2c71a45ea149366, RESELLER
+bluexad.ai, 1996418805747683328, RESELLER
+brightcom.com, 23120, RESELLER
+brightmountainmedia.com, 2686958, RESELLER
+connekt.ai, 5585919044, RESELLER
